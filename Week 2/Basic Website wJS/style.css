@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    height: 16vh;
+    background-color: yellow;
+    font-size: 15vh;
+    text-align: center;
+}
+nav ul {
+    width: 100%;
+    height: 8vh;
+    background-color: yellow;
+}
+li {
+    display: inline;
+    padding: 0 2.07em;
+    font-size: 5vh;
+    width: 100%;
+    background-color: yellow;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    height: 50vh;
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: yellow;
+    font-size: 15vh;
+    text-align: center;
+}
