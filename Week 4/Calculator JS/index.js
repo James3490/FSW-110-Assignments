@@ -1,13 +1,4 @@
-// var addends1 = document.getElementById("addends1").value;
-// var addends2=document.getElementById("addends2").value;
-// function addEventListeners() {}
-// document.getElementById("equals").addEventListener("click", sum);
-// var sum=parseFloat(addends1)+parseFloat("addends2")
-// function sum() {
-//     equals.document.getElementById("equals").innerHtml="The answer is" + additionsum;
-// }
-// var sum=parseFloat(addends1)+parseFloat("addends2")
-// var button = document.getElementById("additionsum")
+
 document.getElementById("calculate").addEventListener("click", function() {
     document.getElementById("result").innerHTML = "Result: ";
     var num1 = parseInt(document.getElementById("num1").value);
