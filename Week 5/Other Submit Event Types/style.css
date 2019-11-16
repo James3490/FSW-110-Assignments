@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+#fName {
+    font-size: 2em;
+    margin-top: 10vh;
+}
+
+#lName {
+    font-size: 2em;
+}
+
+#age {
+    font-size: 2em;
+}
+#genders {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+#destination {
+    font-size: 2em;
+}
+#diet {
+    font-size: 2em;
+}
+
+button {
+    font-size: 2em;
+}
