@@ -22,6 +22,7 @@ function doubleclick() {
 function scroll() {
     document.body.style.backgroundColor = "orange"
 };
+
 function keypress(e) {
     if (event.which == "66") {
         box.style.backgroundColor = "blue"   
