@@ -1,0 +1,50 @@
+body,html{
+    height: 100%;
+     margin:0;
+}
+
+.main {
+    
+    background-image: url(/images/scott-webb-KesWZ9GyJ5k-unsplash.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    font-size: 1em;
+    width: 100%; 
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:#00FFFFFF;
+    opacity: 0.3;
+    z-index: 2; 
+    text-align: center;
+}
+
+input {
+    height: 2em;
+    font-size: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+button {
+    height: 2em;
+    font-size: 2em;
+}
+
+li {
+    font-size: 2em;
+    text-align: center;
+    }
+
+.close {
+    padding-left: 2em;
+}

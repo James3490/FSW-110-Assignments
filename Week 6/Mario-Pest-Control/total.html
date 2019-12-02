@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.css">
+    <title>Mario Pest Control</title>
+</head>
+<body>
+ 
+    <header class="header">
+        <a href="index.html"
+            class="mario">SUPER MARIO</a>
+        <a href="index.html"><img
+                class="super"
+                alt="Super Mario"
+                src="images/Super_Mario_Logo.png"></a>
+        <a href="index.html"
+            class="control">PEST CONTROL</a>
+        <div class="nav-links">
+            <a
+                href="services.html">Services</a>
+            
+            <a href="total.html">Total Pests
+                Caught</a>
+        </div>
+    </header>
+    
+    <main class="main3"></main>
+    <span class="wrapper3">
+        <h1>Total Pest Captured</h1>
+        <div class="goombas">
+        <h2>Goomba's</h2>
+        
+        <h3>Total Goomba's Eliminated (5 coins each)</h3>
+         <div class="goombaNumber"></div>
+         <img class="goombapic" src="/images/solo goomba.png" alt="Goomba">
+         <input id="goombaNumber" type="number" placeholder="Enter Number" onchange="updateTotal()">
+        </div>
+
+        <div class="bob-omb">
+                <h2>Bob-omb's</h2>
+                
+                <h3>Total Bob-omb's Eliminated (7 coins each)</h3>
+                 <div class="bobNumber"></div>
+                 <img class="bob2" src="/images/solo bob-omb.png">
+                 <input id="bobOmbNumber" type="number" placeholder="Enter Number" onchange="updateTotal()">
+                </div>
+
+        <div class="cheep-cheep">
+                        <h2>Cheep-cheep's</h2>
+                        
+                        <h3>Total Cheep-cheep's Eliminated (11 coins each)</h3>
+                         <div class="cheepNumber"></div>
+                         <img class="cheep2" src="/images/solo cheep-cheep.png">
+                         <input id="cheepCheepNumber" type="number" placeholder="Enter Number" onchange="updateTotal()">
+        </div>
+                
+        <div class="total">
+                     <h2>Total Coins Due</h2>
+                     <h3>Total: <span id="total">0</span></h3>
+
+        </div>
+    </span>
+    
+    <script src="/index.js"></script>
+</body>
+</html>

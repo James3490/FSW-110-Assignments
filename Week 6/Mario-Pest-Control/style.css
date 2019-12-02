@@ -1,0 +1,260 @@
+html, body {
+    height: 100%;
+}
+header {
+    height: 125px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+
+.super {
+    margin-top: 35px;
+   height: 170px; 
+   position: fixed;
+   z-index: 5;
+}
+.control {
+    margin-top: 100px;
+    margin-right: 5px;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    z-index: 1;
+    left: 375px;
+}
+.control:hover{
+    padding: 10px;
+    margin: 20px;
+    margin-top: 65px;
+    color: red;
+    background-color: white;
+    border: 5px solid red;
+    font-size: 20px;
+    border-radius: 5pc;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: inline-block;
+    margin: 15px;
+    padding: 45px;
+    position: fixed;
+    right: 0px;
+}
+
+.nav-links a {
+    padding: 10px;
+    margin: 20px;
+    color: red;
+    background-color: white;
+    border: 5px solid red;
+    font-size: 20px;
+    border-radius: 5pc;
+}
+
+.nav-links a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: 5px solid white;
+}
+.mario {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+.mario:hover {
+    padding: 10px;
+    margin: 20px;
+    color: red;
+    background-color: white;
+    border: 5px solid red;
+    font-size: 30px;
+    border-radius: 5pc;
+    text-decoration: none;
+}
+
+.main {
+    height: 100%;
+    background-image: url(/images/Mainbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: skyblue;
+    background-attachment: fixed;
+}
+
+
+.wrapper1 {
+    font-size: 1em;
+    width: 100%; 
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:rgb(255, 255, 255, 0.2);
+    opacity: .2;
+    z-index: 2; 
+    text-align: center;
+}
+
+.main2 {
+    height: 100%;
+    background-image: url(/images/peach\ castle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: skyblue;
+    background-attachment: fixed;
+}
+
+.wrapper2 {
+    font-size: 1em;
+    width: 100%; 
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:skyblue;
+    opacity: .2;
+    z-index: 2; 
+    text-align: center;
+}
+.hammer {
+    width: 100%;
+    height: 60px;
+}
+
+.container2 {
+    margin-top: 200px;
+    display: flex;
+    padding: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.coins {
+    height: 50px;
+}
+
+.services-goomba {
+    height: 150px;
+    width: 180px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.goombapic {
+    height: 200px;
+}
+.services-bob-omb {
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.bob {
+    height: 200px;
+}
+
+.services-cheep-cheep {
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.cheep {
+    height: 200px;
+}
+.main3 {
+    height: 100%;
+    background-image: url(/images/captured\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: skyblue;
+    background-attachment: fixed;
+}
+
+.goombas {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    background-image: url(/images/goombas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: skyblue;
+    background-attachment: fixed;
+}
+
+input {
+    height: 60px;
+    width: 300px;
+    font-size: 1em;
+    margin-bottom: 120px;
+}
+
+.bob-omb {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    background-image: url(/images/king\ bob-omb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: skyblue;
+    background-attachment: fixed;
+    height: auto;
+    width: 100%;
+}
+
+.bob2 {
+    height: 200px;
+    }
+
+.cheep-cheep {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    background-image: url(/images/cheep-cheeps.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: skyblue;
+    background-attachment: fixed;
+    height: auto;
+    width: 100%;
+}
+
+.total {
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    height: auto;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
