@@ -4,13 +4,13 @@ body,html{
 }
 
 .main {
-    
-    background-image: url(/images/scott-webb-KesWZ9GyJ5k-unsplash.jpg);
+    background-color: rgb(13,199,212);
+    background-image: url(/images/IMG_0289.jpg);
     height: 100%;
     width: 100%;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
 }
 
@@ -48,3 +48,14 @@ li {
 .close {
     padding-left: 2em;
 }
+
+
+/* @media only screen and (max-width: 767px) {
+    main {
+    height: 50%;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+} */
